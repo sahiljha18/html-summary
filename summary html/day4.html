@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Day-04</title>
+</head>
+<body>
+    <h1>day-4 html</h1>
+    <hr>
+     <ul>
+    <li><a href="./day1.html">Day 1</a> </li>
+    <li><a href="./day2.html">Day 2</a></li>
+    <li><a href="./day3.html" >Day 3</a></li>
+    <li><a href="./day5.html">Day 5</a></li>
+  </ul>
+    <h3>creating login forms</h3>
+    <p>-understand with example </p>
+    <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Job Application: Senior Web Developer</title>
+</head>
+<body>
+    <h1><strong>Job Application: Senior Web Developer</strong></h1>
+    <p>Thank you for your interest in joining our team. Please fill out the application below.</p>
+    <hr />
+    <h2><strong>Personal Information</strong></h2>
+    <form>
+        <label for="fullName">Full Name:</label><br />
+        <input type="text" id="fullName" name="fullName" /><br /><br />
+
+        <label for="email">Email:</label><br />
+        <input type="email" id="email" name="email" /><br /><br />
+
+        <label for="phone">Phone:</label><br />
+        <input type="tel" id="phone" name="phone" /><br /><br />
+
+        <label for="linkedin">LinkedIn Profile URL:</label><br />
+        <input type="url" id="linkedin" name="linkedin" placeholder="https://linkedin.com/in/yo" /><br /><br />
+        <hr />
+
+        <h2><strong>Professional Experience</strong></h2>
+
+        <label for="resume">Upload Your Resume (PDF or DOCX):</label><br />
+        <input type="file" id="resume" name="resume" accept=".pdf,.doc,.docx" /><br /><br />
+
+        <label for="coverLetter">Cover Letter:</label><br />
+        <textarea id="coverLetter" name="coverLetter" rows="6" cols="30" placeholder="Tell us why you're a great fit for this role..."></textarea><br /><br />
+
+        <label for="experienceYears">Years of Professional Experience:</label><br />
+        <input type="number" id="experienceYears" name="experienceYears" min="0" style="width: 40px;" /><br /><br />
+
+        <label for="startDate">Earliest Possible Start Date:</label><br />
+        <input type="date" id="startDate" name="startDate" /><br /><br />
+        <hr />
+
+        <h2><strong>Skills &amp; Availability</strong></h2>
+
+        <p>Primary Skillset (Choose One):</p>
+        <input type="radio" id="frontend" name="primarySkill" value="frontend" checked />
+        <label for="frontend">Frontend Development</label><br />
+
+        <input type="radio" id="backend" name="primarySkill" value="backend" />
+        <label for="backend">Backend Development</label><br />
+
+        <input type="radio" id="fullstack" name="primarySkill" value="fullstack" />
+        <label for="fullstack">Full-Stack Development</label><br /><br />
+
+        <p>Additional Skills (Select all that apply):</p>
+        <input type="checkbox" id="react" name="additionalSkills" value="react" />
+        <label for="react">React</label><br />
+
+        <input type="checkbox" id="node" name="additionalSkills" value="nodejs" />
+        <label for="node">Node.js</label><br />
+
+        <input type="checkbox" id="database" name="additionalSkills" value="database" />
+        <label for="database">Database Management</label><br />
+
+        <input type="checkbox" id="cloud" name="additionalSkills" value="cloud" />
+        <label for="cloud">Cloud/DevOps</label><br /><br />
+
+        <label for="workType">Preferred Work Type:</label><br />
+        <select id="workType" name="workType">
+            <option value="fulltime">Full-Time</option>
+            <option value="parttime">Part-Time</option>
+            <option value="contract">Contract</option>
+            <option value="internship">Internship</option>
+        </select><br /><br />
+        <hr />
+
+        <h2><strong>Final Confirmation</strong></h2>
+
+        <input type="checkbox" id="legal" name="legal" />
+        <label for="legal">I am legally authorized to work in this country.</label><br /><br />
+
+        <label for="hearAbout">How did you hear about us?</label><br />
+        <input type="text" id="hearAbout" name="hearAbout" placeholder="e.g., LinkedIn, company" /><br /><br />
+
+        <button type="submit">Submit Application</button>
+        <button type="reset">Clear Form</button>
+    </form>
+</body>
+</html>
+
+</body>
+</html>
